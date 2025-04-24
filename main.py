@@ -1,35 +1,3 @@
-# import streamlit as st
-# import re
-# import string
-# st.title("Password Strenght Meter")
-
-# password = st.text_input("Enter Your Passsword")
-
-
-# def is_password_Valid(password):
-#     has_number = any(char.isdigit() for char in password) 
-#     has_small_char = any(char.islower() for char in password)
-#     has_capital_char = any(char.isupper() for char in password)
-#     has_special_char = any(char in string.punctuation for char in password)
-
-#     return has_number, has_capital_char, has_small_char , has_special_char
-
-
-# if st.button("Validate Password"):
-#        has_number,has_small_char, has_capital_char ,has_special_char = is_password_Valid(password)
-
-#        if has_number and has_capital_char and has_small_char and has_special_char:
-#              st.success("Password is strong: It contains at least one number, one uppercase letter, one lowercase letter, and one special character.")
-             
-#        elif has_number and has_capital_char and has_small_char :
-#              st.success("Your Password is good")
-#        elif has_number and has_capital_char:
-#              st.success("Your Password is weak")
-#        else:
-#              st.write("Your Password is so weak")
-
-
-
 import streamlit as st
 import string
 
